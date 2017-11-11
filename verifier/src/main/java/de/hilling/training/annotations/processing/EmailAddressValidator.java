@@ -22,7 +22,8 @@ import javax.tools.Diagnostic;
 public class EmailAddressValidator extends AbstractProcessor {
     // end::declaration[]
 
-    public static final String DEFAULT_ERROR_MESSAGE = "@EMailAddress annotated field must be a String";
+    public static final String DEFAULT_ERROR_MESSAGE = EMailAddress.class.getSimpleName() + " annotated field must be" +
+                                                       " a String";
 
     private Messager messager;
 

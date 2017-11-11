@@ -7,18 +7,13 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>processor</artifactId>
+    <artifactId>verifier</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>de.hilling.training.apt-verify</groupId>
             <artifactId>api</artifactId>
             <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.squareup</groupId>
-            <artifactId>javapoet</artifactId>
-            <version>1.5.1</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
