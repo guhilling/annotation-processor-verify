@@ -17,7 +17,8 @@
 
     <modules>
         <module>api</module>
-        <module>processor</module>
+        <module>verifier</module>
+        <module>demo</module>
     </modules>
 
     <build>

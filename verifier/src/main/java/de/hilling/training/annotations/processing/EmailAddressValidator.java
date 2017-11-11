@@ -20,7 +20,7 @@ import javax.tools.Diagnostic;
 @SupportedAnnotationTypes("de.hilling.training.annotations.processing.EMailAddress")
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class EmailAddressValidator extends AbstractProcessor {
-    // end::declaration[]
+// end::declaration[]
 
     public static final String DEFAULT_ERROR_MESSAGE = EMailAddress.class.getSimpleName() + " annotated field must be" +
                                                        " a String";
