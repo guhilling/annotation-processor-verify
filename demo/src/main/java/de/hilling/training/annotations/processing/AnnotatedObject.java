@@ -3,13 +3,13 @@ package de.hilling.training.annotations.processing;
 public class AnnotatedObject {
 
     @EMailAddress
-    private Integer email;
+    private String email;
 
-    public Integer getEmail() {
+    public String getEmail() {
         return email;
     }
 
-    public void setEmail(Integer email) {
+    public void setEmail(String email) {
         this.email = email;
     }
 }
