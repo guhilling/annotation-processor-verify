@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import com.google.testing.compile.JavaFileObjects;
 
-public class EMailAddressProcessorTest {
+public class EMailAddressValidatorTest {
 
     @Test
     public void validateValidObject() {
